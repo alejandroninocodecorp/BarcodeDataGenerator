@@ -1,6 +1,6 @@
 {
   "name": "barcodedatagenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Data for barcode creation",
   "main": "index.js",
   "scripts": {
