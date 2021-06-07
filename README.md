@@ -16,15 +16,7 @@ Code Corporation.
 <div>-returns string value contianing the generated CRCCS string.</div><br>
 <div>Text file which contains the command for the reader.  If giving multiple commands in the text box, separate them with a semi-colon (";").
 
-example: 
-
-SYAZTCG     //get all Aztec settings
-
-SYAUPOG     //get allAustralian Post settings
-
-
-
-barcode would contain \x01Y\x1d\x02SYAZTCG\x03STAUPOG\x03\x04</div>
+</div>
 
 
 
@@ -37,10 +29,9 @@ barcode would contain \x01Y\x1d\x02SYAZTCG\x03STAUPOG\x03\x04</div>
 
 example:
 
-CMMOSCMBT     // Bluetooth "Vendor" Communication Mode
-BTCMXCA000BEF123456    // Connect to Bluetooth MAC Address "000BEF123456"
+000BEF123456    // Connect to Bluetooth MAC Address "000BEF123456"
 
-barcode would contain \x01Q\x1d\x02CMMOSCMBT\x03BTCMXCA000BEF123456\x03\x04</div>
+</div>
 
 <h2>GenerateQrCodeCRMKR</h2>
 <div><b>IMPLEMENTING:</b></div>
@@ -49,11 +40,8 @@ barcode would contain \x01Q\x1d\x02CMMOSCMBT\x03BTCMXCA000BEF123456\x03\x04</div
 <div>-returns string value containing the generated CRMKR string.</div><br>
 <div>Text file which contains head/footer/split.  Non-printable characters are represented by url encoding.
 
-Input file for a CRMKR is below uses URL encoding for the non-printable values:
 
-%01Y%1d%02SYAZTCG%03STAUPOG%03%04
-
-barcode would contain \x01Y\x1d\x02SYAZTCG\x03STAUPOG\x03\x04</div>
+</div>
   
   <h2>GenerateQrCodeAgeVerification</h2>
 <div><b>IMPLEMENTING:</b></div>
